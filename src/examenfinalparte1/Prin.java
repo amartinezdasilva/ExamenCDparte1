@@ -7,6 +7,10 @@ public class Prin {
     public static void main(String[] args) throws IOException {
         MetodoSuma();
         RestaAlPrimerMetodo();
+        ValorNegativo();
+    }
+
+    public static void ValorNegativo() {
         Principal mn = new Principal();
         int nn = mn.i;
         System.out.println("Es: " + nn);
