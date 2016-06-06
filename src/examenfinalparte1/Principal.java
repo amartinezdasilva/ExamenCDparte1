@@ -20,6 +20,7 @@ public class Principal {
         Calculos ObjetoCreado2 = new Calculos(10);
         int resta = ObjetoCreado2.i;
         System.out.println("Es: " + resta);
+        //nombre variable de m a resta
     }
 
     public static void MetodoSuma() {
