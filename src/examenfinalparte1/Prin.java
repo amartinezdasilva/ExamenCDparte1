@@ -6,19 +6,19 @@ public class Prin {
 
     public static void main(String[] args) throws IOException {
         MetodoSuma();
-        RestaAlPrimerMetodo();
+        RestaAlPrimerMetodo();       
         ValorNegativo();
     }
 
     public static void ValorNegativo() {
-        Principal mn = new Principal();
-        int nn = mn.i;
+        Principal ObjetoCreado = new Principal();
+        int nn = ObjetoCreado.i;
         System.out.println("Es: " + nn);
     }
 
     public static void RestaAlPrimerMetodo() {
-        Principal nm = new Principal(10);
-        int m = nm.i;
+        Principal ObjetoCreado2 = new Principal(10);
+        int m = ObjetoCreado2.i;
         System.out.println("Es: " + m);
     }
 
