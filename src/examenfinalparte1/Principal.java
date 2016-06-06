@@ -18,8 +18,8 @@ public class Principal {
 
     public static void RestaAlPrimerMetodo() {
         Calculos ObjetoCreado2 = new Calculos(10);
-        int m = ObjetoCreado2.i;
-        System.out.println("Es: " + m);
+        int resta = ObjetoCreado2.i;
+        System.out.println("Es: " + resta);
     }
 
     public static void MetodoSuma() {
