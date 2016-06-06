@@ -12,8 +12,8 @@ public class Principal {
 
     public static void ValorNegativo() {
         Calculos ObjetoCreado = new Calculos();
-        int suma = ObjetoCreado.i;
-        System.out.println("Es: " + suma);
+        int negativo = ObjetoCreado.i;
+        System.out.println("Es: " + negativo);
     }
 
     public static void RestaAlPrimerMetodo() {
@@ -25,7 +25,7 @@ public class Principal {
 
     public static void MetodoSuma() {
         Calculos obj = new Calculos(10, 20);
-        int negativo = obj.i;
-        System.out.println("Es: " + negativo);
+        int suma = obj.i;
+        System.out.println("Es: " + suma);
     }
 }
