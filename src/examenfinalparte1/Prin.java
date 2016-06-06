@@ -6,12 +6,16 @@ public class Prin {
 
     public static void main(String[] args) throws IOException {
         MetodoSuma();
-        Principal nm = new Principal(10);
-        int m = nm.i;
-        System.out.println("Es: " + m);
+        RestaAlPrimerMetodo();
         Principal mn = new Principal();
         int nn = mn.i;
         System.out.println("Es: " + nn);
+    }
+
+    public static void RestaAlPrimerMetodo() {
+        Principal nm = new Principal(10);
+        int m = nm.i;
+        System.out.println("Es: " + m);
     }
 
     public static void MetodoSuma() {
