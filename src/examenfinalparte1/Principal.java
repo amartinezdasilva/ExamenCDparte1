@@ -1,22 +1,30 @@
 package examenfinalparte1;
 
+import java.io.IOException;
+
 public class Principal {
 
-    int i;
-
-    public Principal(int j, int m) {
-        i = calculo(j, m);
+    public static void main(String[] args) throws IOException {
+        MetodoSuma();
+        RestaAlPrimerMetodo();       
+        ValorNegativo();
     }
 
-    public Principal(int j) {
-        i = calculo(j, j);
+    public static void ValorNegativo() {
+        Calculos ObjetoCreado = new Calculos();
+        int nn = ObjetoCreado.i;
+        System.out.println("Es: " + nn);
     }
 
-    public Principal() {
-        i = -1;
+    public static void RestaAlPrimerMetodo() {
+        Calculos ObjetoCreado2 = new Calculos(10);
+        int m = ObjetoCreado2.i;
+        System.out.println("Es: " + m);
     }
 
-    public int calculo(int x, int x1) {
-        return x + x1;
+    public static void MetodoSuma() {
+        Calculos obj = new Calculos(10, 20);
+        int n = obj.i;
+        System.out.println("Es: " + n);
     }
 }
