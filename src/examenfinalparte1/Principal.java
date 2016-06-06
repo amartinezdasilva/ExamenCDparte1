@@ -25,7 +25,7 @@ public class Principal {
 
     public static void MetodoSuma() {
         Calculos obj = new Calculos(10, 20);
-        int n = obj.i;
-        System.out.println("Es: " + n);
+        int negativo = obj.i;
+        System.out.println("Es: " + negativo);
     }
 }
